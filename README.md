@@ -11,6 +11,10 @@ Kasseir POS & Reports is an Android POS app that allows users to manage their bu
 - Comprehensive reports with advanced filters and analytics
 - Sales and order tracking for different time intervals
 
+## Screenshots
+
+![](images/Kassier.gif)
+
 ## Installation
 
 To use Kasseir POS & Reports, follow the steps below:
