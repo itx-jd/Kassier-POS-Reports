@@ -1,0 +1,19 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_item_menu"
+            android:title="Menu" />
+        <item
+            android:id="@+id/menu_item_reports"
+            android:title="Reports" />
+
+        <item
+            android:id="@+id/menu_item_dashbaord"
+            android:title="Dashbaord" />
+        <item
+            android:id="@+id/menu_item_preferences"
+            android:title="Preferences" />
+
+    </group>
+</menu>

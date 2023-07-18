@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kassier POS &amp; Report</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="email_address">jawad2k01@gmail.com</string>
+    <string name="email_subject">Suggestion &amp; Bug Report of Kassier</string>
+
+    <!--    update dialog-->
+    <string name="update_title">We\'re Getting Better!</string>
+    <string name="update_description">Update the app to unlock new features</string>
+
+</resources>

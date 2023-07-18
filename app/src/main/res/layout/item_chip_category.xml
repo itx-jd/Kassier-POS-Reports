@@ -1,0 +1,17 @@
+<com.google.android.material.chip.Chip
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chipCategory"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:padding="8dp"
+    app:chipBackgroundColor="@color/gray_light"
+    app:chipStrokeColor="@color/red"
+    android:textColor="@color/red"
+    android:text="Burger"
+    app:chipStrokeWidth="1dp"
+    app:chipCornerRadius="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:checkedIconVisible="false" />

@@ -1,0 +1,11 @@
+<!-- res/layout/action_bar_title_layout.xml -->
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customActionBarTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Menu"
+    android:textSize="18sp"
+    android:textColor="@android:color/white"
+    android:layout_gravity="center"
+    android:fontFamily="@font/open_sans_bold" />
