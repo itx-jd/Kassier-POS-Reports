@@ -22,7 +22,7 @@ To use Kasseir POS & Reports, follow the steps below:
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/itx-jd/kasseir-pos-reports.git
+   git clone https://github.com/itx-jd/Kassier-POS-Reports.git
    ```
 
 2. Open the project in Android Studio.
