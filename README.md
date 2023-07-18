@@ -13,7 +13,7 @@ Kasseir POS & Reports is an Android POS app that allows users to manage their bu
 
 ## Screenshots
 
-![](images/Kassier.gif)
+![](images/kassier.gif)
 
 ## Installation
 
