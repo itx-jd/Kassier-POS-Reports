@@ -15,10 +15,6 @@ Kasseir POS & Reports is an Android POS app that allows users to manage their bu
 
 ![](images/kassier.gif)
 
-[![Github All Releases](images/download.png)](https://raw.githubusercontent.com/itx-jd/Kassier-POS-Reports/master/app/release/Kassier%20POS%20%26%20Reports.apk)
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jadi)
-
 ## Installation
 
 To use Kasseir POS & Reports, follow the steps below:
