@@ -1,6 +1,7 @@
 package com.coderium.pos;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -24,9 +25,10 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         setContentView(R.layout.activity_splash);
 
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         logo_text = findViewById(R.id.logo_text);
 
@@ -54,7 +56,7 @@ public class SplashActivity extends AppCompatActivity {
     {
         super.onWindowFocusChanged(hasFocus);
 
-        if( android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT && hasFocus){
+        if( Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT && hasFocus){
 
             getWindow().getDecorView().setSystemUiVisibility(
                     View.SYSTEM_UI_FLAG_LAYOUT_STABLE

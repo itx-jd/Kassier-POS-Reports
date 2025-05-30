@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.POS" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Base.Theme.KassierPOSLatest" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/red</item>
         <item name="colorPrimaryVariant">@color/orange</item>
@@ -20,11 +20,9 @@
 
         <!-- Define the colorControlActivated attribute to change the radio button indicator color -->
         <item name="colorControlActivated">@color/red</item>
-
     </style>
-
     <style name="NavigationMenuItemStyle">
         <item name="android:textStyle">normal</item>
     </style>
-
+    <style name="Theme.KassierPOSLatest" parent="Base.Theme.KassierPOSLatest" />
 </resources>

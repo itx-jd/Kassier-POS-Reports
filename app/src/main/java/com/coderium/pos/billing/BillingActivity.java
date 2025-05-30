@@ -4,13 +4,16 @@ import static com.coderium.pos.Constant.vibrator;
 import static com.coderium.pos.preferences.SettingsActivity.service_charges;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -40,6 +43,7 @@ public class BillingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         setContentView(R.layout.activity_billing);
         getSupportActionBar().hide();
 
@@ -66,6 +70,7 @@ public class BillingActivity extends AppCompatActivity {
         recyclerViewBilling.setAdapter(billItemAdapter);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     public void place_order(View view) {
 
         vibrator(this);

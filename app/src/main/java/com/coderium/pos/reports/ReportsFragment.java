@@ -4,8 +4,10 @@ import static com.coderium.pos.Constant.vibrator;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
@@ -58,6 +60,7 @@ public class ReportsFragment extends Fragment implements DatePickerDialog.OnDate
     TextView tv_total_sale,tv_month_sale,tv_total_orders,tv_avg_sale,tv_today_sale,tv_yesterday_Sale,tv_month_name;
 
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -151,6 +154,7 @@ public class ReportsFragment extends Fragment implements DatePickerDialog.OnDate
 
             // Set an OnClickListener for the chip
             chip.setOnClickListener(new View.OnClickListener() {
+                @RequiresApi(api = Build.VERSION_CODES.O)
                 @Override
                 public void onClick(View view) {
 
@@ -209,7 +213,8 @@ public class ReportsFragment extends Fragment implements DatePickerDialog.OnDate
         dialog.show();
     }
 
-    private void handleChipSelection(Chip selectedChip,ChipGroup chipGroupCategories) {
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    private void handleChipSelection(Chip selectedChip, ChipGroup chipGroupCategories) {
 
         // Update To and From Date
         if ("Today".equals(selectedChip.getTag())) {
@@ -310,6 +315,7 @@ public class ReportsFragment extends Fragment implements DatePickerDialog.OnDate
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     public void fetchInsights(){
 
         // Get a reference to the Firebase database

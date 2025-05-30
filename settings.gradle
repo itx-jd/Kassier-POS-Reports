@@ -1,8 +1,14 @@
 pluginManagement {
     repositories {
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
+        mavenCentral()
         gradlePluginPortal()
-        google()
-        maven { url 'https://jitpack.io' }
     }
 }
 dependencyResolutionManagement {
@@ -12,6 +18,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "POS"
-include ':app'
 
+rootProject.name = "Kassier POS - Latest"
+include ':app'

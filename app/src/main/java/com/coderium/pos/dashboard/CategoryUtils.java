@@ -20,7 +20,6 @@ public class CategoryUtils {
 
     public static List<CategoryItem> categoryItemList = new ArrayList<>();
 
-
     public static String getCategoryIdByCategoryName(String categoryName) {
         for (CategoryItem categoryItem : categoryItemList) {
             if (categoryItem.getCategoryName().equalsIgnoreCase(categoryName)) {

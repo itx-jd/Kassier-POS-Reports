@@ -11,8 +11,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.coderium.pos.foodMenu.MenuItem;
 import com.coderium.pos.R;
+import com.coderium.pos.foodMenu.MenuItem;
 
 import java.util.List;
 import java.util.Objects;

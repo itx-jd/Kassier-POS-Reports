@@ -5,17 +5,21 @@ import static android.content.Context.DOWNLOAD_SERVICE;
 import android.app.DownloadManager;
 import android.content.Context;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Environment;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.webkit.MimeTypeMap;
 import android.widget.Toast;
 
+import androidx.annotation.RequiresApi;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 
 public class Constant {
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     public static void vibrator(Context context){
 
         Vibrator vibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
