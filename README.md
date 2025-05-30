@@ -1,5 +1,7 @@
 # Kasseir POS & Reports
 
+[![Github All Releases](images/download.png)](https://github.com/itx-jd/Kassier-POS-Reports/releases/download/1.0.0/Kassier-POS_v1.apk)
+
 Kasseir POS & Reports is an Android POS app that allows users to manage their business by automating the reports process and enables quick order taking through a clean and user-friendly interface. It provides both basic and advanced features such as adding or modifying items in the restaurant menu, creating and modifying menu categories, and adjusting the service charges (defaulted at 4%). The app utilizes a real-time Firebase database for data storage and offers advanced filters for generating reports, including a Product Performance Report to track top-selling items within specific intervals. The reports section provides insights into sales and order counts for today, yesterday, last month, and all-time periods.
 
 ## Features
